@@ -1,0 +1,17 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Advanced CSV",
+		"BracketHighlighter",
+		"Dracula Color Scheme",
+		"HTML-CSS-JS Prettify",
+		"JavaScript & NodeJS Snippets",
+		"JsFormat",
+		"Package Control",
+		"RegexExplainTip"
+	]
+}

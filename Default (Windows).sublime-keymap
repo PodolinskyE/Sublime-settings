@@ -1,0 +1,47 @@
+[
+
+	{ "keys": ["ctrl+["], "command": "bh_async_key", "args": {
+            "no_outside_adj": null,
+            "no_block_mode": null,
+            "lines" : true,
+            "plugin":
+            {
+                "type": ["__all__"],
+                "command": "bh_modules.bracketselect",
+                "args": {"select": "left"}
+            }
+  }},
+  { "keys": ["ctrl+]"], "command": "bh_async_key", "args": {
+            "no_outside_adj": null,
+            "no_block_mode": null,
+            "lines" : true,
+            "plugin":
+            {
+                "type": ["__all__"],
+                "command": "bh_modules.bracketselect",
+                "args": {"select": "right"}
+            }
+  }},
+
+
+
+
+	//{ "keys": ["ctrl+]"], "command": "move_to", "args": {"to": "brackets", "forward" : true, "extend": false} },
+	//{ "keys": ["ctrl+["], "command": "move_to", "args": {"to": "brackets", "forward" : false, "extend": false} },
+
+	{ "keys": ["ctrl+shift+]"], "command": "move_to", "args": {"to": "brackets", "forward" : true, "extend": true}},
+	{ "keys": ["ctrl+shift+["], "command": "move_to", "args": {"to": "brackets", "forward" : false, "extend": true}},
+
+
+	//def { "keys": ["ctrl+alt+up"], "command": "select_lines", "args": {"forward": false} },
+	//def { "keys": ["ctrl+alt+down"], "command": "select_lines", "args": {"forward": true} },
+
+	{ "keys": ["ctrl+alt+up"], "command" : "noop" },
+	{ "keys": ["ctrl+alt+down"], "command" : "noop" },
+	{ "keys": ["ctrl+m"], "command" : "noop" },
+
+	{ "keys": ["alt+shift+up"], "command": "select_lines", "args": {"forward": false} },
+	{ "keys": ["alt+shift+down"], "command": "select_lines", "args": {"forward": true} },
+
+	{ "keys": ["alt+shift+c"], "command": "insert_snippet", "args": {"contents": "console.log();"} }
+]

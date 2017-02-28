@@ -1,0 +1,15 @@
+{
+	"shell": true,
+	// "cmd": ["nodemon d:\\_Projects\\DocNode\\app.js --ignore client/"],
+	"cmd" : "forever stopall && forever -w --watchDirectory . --watchIgnore *.log --watchIgnore files/** --watchIgnore public/scan/** --watchIgnore lib/smdo/**  -o ./log/out.log -e ./log/err.log start app.js",
+	/*
+	"env": {
+					"db_url": "database.example.com",
+					"db_schema": "sad",
+					"db_username": "user",
+					"db_password": "qwe123"
+	},
+	*/
+	"working_dir": "${project_path:${folder}}",
+	"selector": "*.js"
+}

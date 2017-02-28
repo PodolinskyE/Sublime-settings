@@ -1,0 +1,17 @@
+{
+	"always_show_minimap_viewport": true,
+	"auto_match_enabled": false,
+	"color_scheme": "Packages/Colorsublime-Themes/myObsidian.tmTheme",
+	"detect_indentation": false,
+	"draw_minimap_border": true,
+	"font_size": 11,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"margin": 2,
+	"match_brackets": false,
+	"tab_size": 2,
+	"trim_automatic_white_space": false,
+	"word_wrap": "false"
+}
