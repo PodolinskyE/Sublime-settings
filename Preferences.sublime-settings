@@ -4,7 +4,7 @@
 	"color_scheme": "Packages/Colorsublime-Themes/myObsidian.tmTheme",
 	"detect_indentation": false,
 	"draw_minimap_border": true,
-	"font_size": 11,
+	"font_size": 12,
 	"ignored_packages":
 	[
 		"Vintage"

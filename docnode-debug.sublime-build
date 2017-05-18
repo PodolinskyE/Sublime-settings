@@ -1,0 +1,12 @@
+{
+	// "shell" : true,
+	// "cmd" : ["taskkill", "/F", "/im", "node.exe", "&", "node", "--inspect", "--debug-brk", "$file"],
+	//"cmd" : "taskkill /F /im node.exe & node --inspect --debug-brk $file",
+	//"selector" : "app.js"
+	// "path": "d:\\_Projects\\DocNode\\"
+	"windows":
+	{
+		"cmd": ["_debug.bat"],
+		"working_dir" : "d:\\_Projects\\DocNode\\"
+	}
+}
