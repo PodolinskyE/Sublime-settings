@@ -1,3 +1,7 @@
 {
-	"comma_first" : true
+	"comma_first" : true,
+	"space_before_conditional": true,
+	"space_in_paren": true,
+	"space_after_anon_function": true,
+	"jslint_happy": true
 }

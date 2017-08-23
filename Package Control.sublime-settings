@@ -6,12 +6,14 @@
 	"installed_packages":
 	[
 		"Advanced CSV",
+		"ANSIescape",
 		"BracketHighlighter",
 		"Dracula Color Scheme",
 		"HTML-CSS-JS Prettify",
 		"JavaScript & NodeJS Snippets",
 		"JsFormat",
 		"Package Control",
+		"Pug",
 		"RegexExplainTip"
 	]
 }
