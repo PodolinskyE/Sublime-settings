@@ -5,8 +5,8 @@
 	//"selector" : "app.js"
 	// "path": "d:\\_Projects\\DocNode\\"
 	"working_dir" : "$project_path",
-	"target": "ansi_color_build",
-	"syntax": "Packages/ANSIescape/ANSI.tmLanguage",
+	//"target": "ansi_color_build",
+	//"syntax": "Packages/ANSIescape/ANSI.tmLanguage",
 	"windows":
 	{
 		"cmd": ["_debug.bat"] //,
