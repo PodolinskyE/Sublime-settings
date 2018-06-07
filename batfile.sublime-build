@@ -1,0 +1,25 @@
+{
+	// "shell" : true,
+	// "cmd" : ["taskkill", "/F", "/im", "node.exe", "&", "node", "--inspect", "--debug-brk", "$file"],
+	//"cmd" : "taskkill /F /im node.exe & node --inspect --debug-brk $file",
+	//"selector" : "app.js"
+	// "path": "d:\\_Projects\\DocNode\\"
+	"working_dir" : "$project_path",
+	//"target": "ansi_color_build",
+	//"syntax": "Packages/ANSIescape/ANSI.tmLanguage",
+	"windows":
+	{
+		"cmd": ["sublime-build.bat"]
+		//, "encoding" : "cp1252"
+	}
+}
+
+// {
+//     "cmd": ["rspec", "-I ${file_path}", "$file"],
+//     "file_regex": "# ([A-Za-z:0-9_./ ]+rb):([0-9]+)",
+//     "working_dir": "${project_path:${folder:${file_path}}}",
+//     "selector": "source.ruby.rspec",
+//     // Recognize ANSI colors in the output
+//     "target": "ansi_color_build",
+//     "syntax": "Packages/ANSIescape/ANSI.tmLanguage"
+// }
